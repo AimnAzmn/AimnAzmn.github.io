@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/bg2.jpeg");
+  background-size: cover;
+  background-repeat: none;
+  height: 100%;
+}
+
+/* main page */
+.header {
+  height: 5%;
+  width: 100%;
+  padding: 0 8%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #114b5f;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+#logo {
+  font-family: "Candara", sans-serif;
+  font-style: italic;
+}
+
+#home {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.nav-links {
+  padding: 28px 0;
+}
+
+.nav-links li a:hover {
+  background-color: whitesmoke;
+  color: #114b5f;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  padding: 5px 0;
+  color: whitesmoke;
+}
+
+.mainpage {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainpage h1 {
+  padding: 50px;
+  font-size: 100px;
+  font-family: "Candara", sans-serif;
+  font-style: italic;
+}
+
+.mainpage p {
+  color: grey;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.mainpage button {
+  font-size: 16px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #114b5f;
+  color: whitesmoke;
+}
+
+.mainpage button:hover {
+  font-size: 20px;
+}
+
+.mainpage button:active {
+  background-color: #196680;
+}
+
+.mainpage a {
+  text-decoration: none;
+}
+
+/*About Me page*/
+.biodata h1 {
+  margin: 50px;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 70%;
+  background-color: whitesmoke;
+}
+
+table tr th,
+table tr td {
+  border: 1px solid;
+  padding: 15px 20px;
+}
+
+table tr td ul li {
+  padding: 5px;
+  margin: 0px 30px;
+}
+
+#profile {
+  text-align: center;
+}
+
+#propic {
+  width: 180px;
+  padding: 20px 0;
+}
+
+/*Hobbies page*/
+.hobby h1 {
+  margin: 50px;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+.hobby h2 {
+  color: whitesmoke;
+  font-size: 30px;
+  font-style: italic;
+  margin: 20px 50px;
+  background-color: #114b5f;
+  padding: 20px 40px;
+  max-width: fit-content;
+  border-radius: 10px;
+}
+
+.hobby p {
+  font-size: 20px;
+  margin: 10px 50px;
+}
